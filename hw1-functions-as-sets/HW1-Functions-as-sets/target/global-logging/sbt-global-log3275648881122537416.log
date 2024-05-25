@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.2 (Oracle Corporation Java 17)
+[debug] Load.defaultLoad until apply took 152.4495ms
+[debug]           Load.loadUnit: plugins took 137.3678ms
+[debug]           Load.loadUnit: defsScala took 0.7284ms
+[debug] [Loading] Scanning directory D:\UNIVERSITY\FILS\AN3\FP\hw1-functions-as-sets\HW1-Functions-as-sets\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\UNIVERSITY\FILS\AN3\FP\hw1-functions-as-sets\HW1-Functions-as-sets\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 27.2869 ms
+[debug]               Load.resolveProject(hw1-functions-as-sets-build) took 60.8758ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id hw1-functions-as-sets-build, base: D:\UNIVERSITY\FILS\AN3\FP\hw1-functions-as-sets\HW1-Functions-as-sets\project, plugins: List(<none>))) took 134.6462ms
+[debug] [Loading] Done in D:\UNIVERSITY\FILS\AN3\FP\hw1-functions-as-sets\HW1-Functions-as-sets\project, returning: (hw1-functions-as-sets-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 193.7935ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.6673ms
+[debug]         Load.loadUnit(file:/D:/UNIVERSITY/FILS/AN3/FP/hw1-functions-as-sets/HW1-Functions-as-sets/project/, ...) took 349.3383ms
+[debug]       Load.apply: load took 597.6565ms
+[debug]       Load.apply: resolveProjects took 6.8299ms
+[debug]       Load.apply: finalTransforms took 86.0421ms
+[debug]       Load.apply: config.delegates took 13.6672ms
+[debug]       Load.apply: Def.make(settings)... took 530.5103ms
+[debug]       Load.apply: structureIndex took 135.0902ms
+[debug]       Load.apply: mkStreams took 2.1666ms
+[info] loading project definition from D:\UNIVERSITY\FILS\AN3\FP\hw1-functions-as-sets\HW1-Functions-as-sets\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 3116.471ms
+[debug]     Load.loadUnit: defsScala took 0.0029ms
+[debug] [Loading] Scanning directory D:\UNIVERSITY\FILS\AN3\FP\hw1-functions-as-sets\HW1-Functions-as-sets
+[debug]       Load.loadUnit: mkEval took 4.248ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.1842 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 5.5891ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: D:\UNIVERSITY\FILS\AN3\FP\hw1-functions-as-sets\HW1-Functions-as-sets, plugins: List(<none>))) took 9.3999ms
+[debug] [Loading] Done in D:\UNIVERSITY\FILS\AN3\FP\hw1-functions-as-sets\HW1-Functions-as-sets, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 3050.2912ms
+[debug]     Load.loadUnit: cleanEvalClasses took 44.5708ms
+[debug]   Load.loadUnit(file:/D:/UNIVERSITY/FILS/AN3/FP/hw1-functions-as-sets/HW1-Functions-as-sets/, ...) took 6213.4806ms
+[debug] Load.apply: load took 6266.0506ms
+[debug] Load.apply: resolveProjects took 0.1236ms
+[debug] Load.apply: finalTransforms took 9.9922ms
+[debug] Load.apply: config.delegates took 0.3429ms
+[debug] Load.apply: Def.make(settings)... took 75.3434ms
+[debug] Load.apply: structureIndex took 30.6816ms
+[debug] Load.apply: mkStreams took 0.0024ms
+[info] set current project to Homework-1-Functions-as-sets (in build file:/D:/UNIVERSITY/FILS/AN3/FP/hw1-functions-as-sets/HW1-Functions-as-sets/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-8161b627909c821064a6
+[debug] Writing bsp connection file
+[info] started sbt server
