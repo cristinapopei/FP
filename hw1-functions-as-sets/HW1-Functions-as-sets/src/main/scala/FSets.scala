@@ -2,8 +2,6 @@ object FSets {
 
   type Set = Int => Boolean
 
-  def profileID: Int = 791066
-
   def member(e: Int)(s: Set): Boolean = s(e)
 
   def singleton(x: Int): Set = (e: Int) => e == x
