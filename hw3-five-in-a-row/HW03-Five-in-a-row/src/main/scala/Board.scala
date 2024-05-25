@@ -80,8 +80,6 @@ case class Board(val board: List[List[Player]], val player: Player) {
 
 object Board {
 
-  def profileID:Int = 791066
-
   def apply(s: String, p: Player): Board = {
 
     def toPos(c: Char): Player =
