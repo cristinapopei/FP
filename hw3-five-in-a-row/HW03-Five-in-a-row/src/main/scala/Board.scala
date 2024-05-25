@@ -67,8 +67,6 @@ case class Board(val board: List[List[Player]], val player: Player) {
     } yield update(ln, col)
   }
 
-  def sequences: Map[Int,Int] = ???
-
   override def toString: String = {
     board.map(row => row.map {
       case One => 'X'
